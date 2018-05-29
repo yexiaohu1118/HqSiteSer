@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CFunc.cpp">
+      <Filter>GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobal.cpp">
+      <Filter>GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Instrument.cpp">
+      <Filter>GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="KsHq.cpp">
+      <Filter>KStart</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>GlobalFunc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="KStart">
+      <UniqueIdentifier>{a553cc1d-4cf5-4eef-8fa8-df9cff81dc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalFunc">
+      <UniqueIdentifier>{f7454f34-1bc9-401a-b2cc-c2bb995512a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{530d8384-c439-44a0-96a8-44b01424fbfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KSGMdAPI.h">
+      <Filter>KStart</Filter>
+    </ClInclude>
+    <ClInclude Include="KSGUserApiDataType.h">
+      <Filter>KStart</Filter>
+    </ClInclude>
+    <ClInclude Include="KSGUserApiStruct.h">
+      <Filter>KStart</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunc.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobal.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrument.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="KsHq.h">
+      <Filter>KStart</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="block_queue.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>GlobalFunc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
